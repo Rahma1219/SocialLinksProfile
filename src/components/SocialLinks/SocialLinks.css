@@ -1,0 +1,55 @@
+.profilecard{
+ padding: 20px 30px;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 10px;
+}
+
+
+#pp {
+  
+    border-radius: 10px;
+    
+    
+}
+
+#pp img {
+    clip-path: circle();
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+
+}
+
+#info {
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+
+}
+
+#name {
+    font-weight: 400;
+    margin: 0;
+
+}
+
+#adress {
+    margin: 4px 0 0 0;
+    color: hsl(75, 94%, 57%);
+    font-weight: 600;
+    font-size: 14px;
+}
+
+#job {
+    font-weight: 400;
+    font-size: 14px;
+    color: hsla(0, 0%, 100%, 0.838);
+    margin-top: 35px;
+    word-spacing: 2px;
+    margin-bottom: 25px;
+}
